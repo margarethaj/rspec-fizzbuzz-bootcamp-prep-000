@@ -1,10 +1,9 @@
 def fizzbuzz(input)
   if input % 3 == 0 && input % 5 == 0
-     returnStr = "FizzBuzz"
+     return "FizzBuzz"
   elseif input % 3 == 0
-    returnStr = "Fizz"
+    return "Fizz"
   elseif input % 5 == 0
-    returnStr = "Buzz"
+    return "Buzz"
   end
-  return returnStr
 end
